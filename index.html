@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mini Stopwatch — DP</title>
+
+  <!-- CSS Link -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="main">
+    
+    <!-- LEFT: Instructions -->
+    <aside class="instructions">
+      <h2>How to operate</h2>
+      <p class="lead">Quick controls and keyboard shortcuts to run the stopwatch fast.</p>
+
+      <ul>
+        <li><strong>Start</strong> → Begin time counting.</li>
+        <li><strong>Stop</strong> → Pause the timer.</li>
+        <li><strong>Lap</strong> → Record current time in lap list.</li>
+        <li><strong>Reset</strong> → Clear all time and lap data.</li>
+      </ul>
+
+      <hr>
+
+      <h3>Keyboard shortcuts</h3>
+      <ul>
+        <li><strong>Space</strong> = Start/Stop</li>
+        <li><strong>L</strong> = Lap</li>
+        <li><strong>R</strong> = Reset</li>
+      </ul>
+    </aside>
+
+    <!-- RIGHT: Stopwatch -->
+    <section class="container">
+      <div class="title">
+        <h1>Mini Stopwatch</h1>
+        <button id="modeBtn" class="modeToggle">Dark Mode</button>
+      </div>
+
+      <div id="display" class="display">00:00:00.000</div>
+
+      <div class="controls">
+        <button id="startStop" class="btn start">Start</button>
+        <button id="lapBtn" class="btn lap">Lap</button>
+        <button id="resetBtn" class="btn reset">Reset</button>
+      </div>
+
+      <div id="laps" class="lap-area">
+        <div id="noLaps" class="nolap">No laps yet</div>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- JS File -->
+  <script src="script.js"></script>
+</body>
+</html>
