@@ -74,24 +74,6 @@ This project helped in understanding:
 
 ---
 
-## 📸 Project Preview
-
-You can add a screenshot of your stopwatch UI.
-
-Example:
-
-```
-screenshots/stopwatch.png
-```
-
-Then show it like this:
-
-```markdown
-![Stopwatch Preview](screenshots/stopwatch.png)
-```
-
----
-
 ## 👨‍💻 Author
 
 **Dhiraj Pathak**  
